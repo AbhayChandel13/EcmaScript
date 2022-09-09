@@ -25,8 +25,7 @@ const spacePeople = () => {
 
   */
 
-
-  /*
+/*
   const getPeopleInSpace = () => 
 			fetch('http://api.open-notify.org/astros.json')	
 				.then(res => res.json());
@@ -42,7 +41,7 @@ const spacePeople = () => {
 
   */
 
-   /*  
+/*  
 const delay=seconds=>{
     return  new Promise(resolve=>setTimeout(resolve,seconds*1000));
 };
@@ -61,8 +60,7 @@ counttofive();
 
   */
 
-
- /*  
+/*  
 class vehicle {
     constructor(description,wheels)
     {
@@ -89,7 +87,7 @@ grocerystoresemi.describeYourself();
 
  */
 
- /*  
+/*  
 var attendence={
     _list:[],
     set addname(name){
@@ -108,8 +106,8 @@ console.log("List getter :" ,attendence.list);
 console.log("Underscore list(prop.):",attendence._list);
 
  */
- 
- /*
+
+/*
 class hike{
     constructor(distance,pace){
         this.distance=distance;
