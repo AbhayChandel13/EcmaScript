@@ -37,7 +37,6 @@ var age=2021-birthyear;
 console.log(age);
 */
 
-
 //Example of const Keyword;
 
 /*
@@ -135,7 +134,7 @@ console.log("Has war & Peace ",books.has('war & Peace'));
 
  */
 
- //For of loop:--->
+//For of loop:--->
 /*
  for (let letter of 'Javascript'){
    console.log(letter);
@@ -159,7 +158,6 @@ add(10,5);  //It will overwrite the values of X and Y and give sum accordingly;
 
 
 */
-
 
 /*
 function haveFun(activityName="Running",time=3)
@@ -197,15 +195,13 @@ spacePeople().then(
 );
 */
 
-const getPeopleInSpace = () => 
-fetch('http://api.open-notify.org/astros.json')	
-  .then(res => res.json());
+const getPeopleInSpace = () =>
+  fetch("http://api.open-notify.org/astros.json").then((res) => res.json());
 
-const spaceNames = () => 
-getPeopleInSpace()
-  .then(json => json.people)
-  .then(people => people.map(p => p.name))
-  .then(names => names.join(', '));
+const spaceNames = () =>
+  getPeopleInSpace()
+    .then((json) => json.people)
+    .then((people) => people.map((p) => p.name))
+    .then((names) => names.join(", "));
 
-spaceNames()
-.then(console.log);
+spaceNames().then(console.log);
