@@ -119,11 +119,14 @@ console.log(
   }, {})
 );
 
-
 // JavaScript Arrays
 // The flat() Method
 
-const myArr = [[1,2],[3,4],[5,6]];
+const myArr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
 
 const newArr = myArr.flat();
-console.log("Flatted Array",newArr);
+console.log("Flatted Array", newArr);
