@@ -134,13 +134,13 @@ console.log("Flatted Array", newArr);
 
 //javascript async  function 
 
-async function myDisplay() {
-  let myPromise = new Promise(function(resolve) {
-    setTimeout(function() {resolve("I love You !!");}, 3000);
-  });
-  await myPromise
-   //  document.getElementById("demo").innerHTML = await myPromise;
-}
+// async function myDisplay() {
+//   let myPromise = new Promise(function(resolve) {
+//     setTimeout(function() {resolve("I love You !!");}, 3000);
+//   });
+//   await myPromise
+//    //  document.getElementById("demo").innerHTML = await myPromise;
+// }
 
-myDisplay();
-console.log(myDisplay());
+// myDisplay();
+// console.log(myDisplay());
