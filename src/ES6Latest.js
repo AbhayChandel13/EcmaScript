@@ -145,5 +145,3 @@ console.log("Flatted Array", newArr);
 // console.log(myDisplay());
 
 
-//Comment Added 
-//2. Comment added second 
