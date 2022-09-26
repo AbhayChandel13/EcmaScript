@@ -146,4 +146,4 @@ console.log("Flatted Array", newArr);
  
 
 //comments added for commit 
-//commit added second 
+
