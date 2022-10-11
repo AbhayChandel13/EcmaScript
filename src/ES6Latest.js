@@ -143,4 +143,6 @@ console.log("Flatted Array", newArr);
 
 // myDisplay();
 // console.log(myDisplay());
- 
+  
+// comment for commit nad daily report for the atendence  here in the comment 
+//cpoyright  Try new cross -platform Powershell Activate Windows Go To Settings  To activate windows 
