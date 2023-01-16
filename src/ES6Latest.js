@@ -146,4 +146,4 @@ console.log("Flatted Array", newArr);
  
 
 
-//Java script on liner  
+
