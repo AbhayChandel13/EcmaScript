@@ -18,6 +18,10 @@ input.map(function (num) {
   return Math.pow(num, 2);
 });
 
+
+
+
+
 // or written with Arrow function
 console.log(input.map((num) => Math.pow(num, 2)));
 
