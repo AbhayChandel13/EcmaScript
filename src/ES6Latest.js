@@ -120,7 +120,7 @@ console.log(
 );
 
 // JavaScript Arrays
-// The flat() Method
+// The flat() Method:->
 
 const myArr = [
   [1, 2],
