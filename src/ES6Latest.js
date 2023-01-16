@@ -143,4 +143,5 @@ console.log("Flatted Array", newArr);
 
 // myDisplay();
 // console.log(myDisplay());\
-//Comments added Javascript on liner 
+//Comments added Javascript on liner
+//Java script on liner  
