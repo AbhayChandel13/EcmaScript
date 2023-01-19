@@ -195,9 +195,6 @@ spacePeople().then(
 );
 */
 //console.log(cannot load space people)
-//console.log(cannot load space people)
-//console.log(cannot load space people)
-//console.log(cannot load space people)
 
 const getPeopleInSpace = () =>
   fetch("http://api.open-notify.org/astros.json").then((res) => res.json());
