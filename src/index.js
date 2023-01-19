@@ -196,7 +196,7 @@ spacePeople().then(
 */
 //console.log(cannot oad space people)
 //console.log(cannot oad space people)
-
+//console.log(cannot oad space people)
 const getPeopleInSpace = () =>
   fetch("http://api.open-notify.org/astros.json").then((res) => res.json());
 
