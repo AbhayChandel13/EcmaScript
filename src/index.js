@@ -202,9 +202,7 @@ spacePeople().then(
 //   spaceData => console.log(spaceData),
 //   err => console.error(
 //       new Error('Cannot load space people')
-//   )
-// );
-//console.log(cannot load space people)
+
 
 const getPeopleInSpace = () =>
   fetch("http://api.open-notify.org/astros.json").then((res) => res.json());
