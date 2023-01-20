@@ -196,8 +196,7 @@ spacePeople().then(
 */
 //console.log(cannot load space people)
 
-// spacePeople().then(
-//   spaceData => console.log(spaceData),
+
 //   err => console.error(
 //       new Error('Cannot load space people')
 //   )
