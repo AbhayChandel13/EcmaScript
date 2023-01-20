@@ -198,8 +198,7 @@ spacePeople().then(
 
 
 
-// );
-// */
+
 // console.log(cannot load space people)
 
 
