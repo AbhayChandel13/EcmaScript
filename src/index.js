@@ -198,8 +198,6 @@ spacePeople().then(
 
 
 
-// spacePeople().then(
-//   spaceData => console.log(spaceData),
 
 
 
