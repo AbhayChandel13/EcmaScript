@@ -138,6 +138,8 @@ console.log("Has war & Peace ",books.has('war & Peace'));
 /*
  for (let letter of 'Javascript'){
    console.log(letter);
+   console.log(letter);
+   
  }
 
  var topics=['Javascript','Node','React'];
