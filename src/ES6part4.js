@@ -125,5 +125,5 @@ console.log(mtIallac.lengthInHours);
 console.log(mtIallac.lengthInHours);
 console.log(mtIallac.lengthInHours);
 console.log(mtIallac.lengthInHours);
-console.log(mtIallac.lengthInHours);
+
  */
