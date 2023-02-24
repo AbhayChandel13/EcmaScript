@@ -122,4 +122,5 @@ class hike{
 } 
 const mtIallac=new hike(10,2);
 console.log(mtIallac.lengthInHours);
+console.log(mtIallac.lengthInHours);
  */
