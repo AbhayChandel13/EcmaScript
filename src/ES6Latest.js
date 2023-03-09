@@ -22,6 +22,7 @@ input.map(function (num) {
 
 
 
+
 // or written with Arrow function
 console.log(input.map((num) => Math.pow(num, 2)));
 
