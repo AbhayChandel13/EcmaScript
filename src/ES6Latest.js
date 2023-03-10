@@ -36,7 +36,7 @@ input2
     return accumulator + currentValue;
   }, 0);
 
-// or written with Arrow function
+// or  with Arrow function
 console.log(
   input2
     .filter((num) => num > 0)
