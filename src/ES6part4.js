@@ -54,9 +54,7 @@ const counttofive=async()=>{
     console.log('two seconds');
     await delay(3);
     console.log('five seconds');
-    console.log('two seconds');
-    await delay(3);
-    console.log('five seconds');
+    
 };
 counttofive();
 
