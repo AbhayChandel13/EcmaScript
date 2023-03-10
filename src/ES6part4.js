@@ -51,7 +51,10 @@ const counttofive=async()=>{
     await delay(1);
     console.log('one seconds');
     await delay(1);
-    console.log(' two seconds');
+    console.log('two seconds');
+    await delay(3);
+    console.log('five seconds');
+    console.log('two seconds');
     await delay(3);
     console.log('five seconds');
 };
@@ -86,6 +89,7 @@ var grocerystoresemi=new semitruck();
 grocerystoresemi.describeYourself();
 
  */
+
 /*  
 var attendence={
     _list:[],
