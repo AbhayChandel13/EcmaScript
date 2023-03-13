@@ -125,5 +125,7 @@ console.log(mtIallac.lengthInHours);
 
 const mtIallac=new hike(10,2);
 console.log(mtIallac.lengthInHours);
+const mtIallac=new hike(10,2);
+console.log(mtIallac.lengthInHours);
 
  */
