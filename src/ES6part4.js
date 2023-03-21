@@ -24,7 +24,7 @@ const spacePeople = () => {
   );
 
   spacePeople().then(
-    spaceData => console.log(spaceData),
+    
 
 
   */
