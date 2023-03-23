@@ -206,3 +206,5 @@ const spaceNames = () =>
     .then((names) => names.join(", "));
 
 spaceNames().then(console.log);
+spaceNames().then(console.log);
+
