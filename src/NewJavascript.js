@@ -4,14 +4,13 @@
 
 //todo syntax: F(n)= F(n-1)+ F(n-2), Where, F(1) = F(2) = 1.
 
-
-const fibonacci = (num) =>{
-    if(num<=1){
-        return num;
-    } else{
-        return fibonacci(num-1)+ fibonacci(num-2);
-    }
-}
+const fibonacci = (num) => {
+  if (num <= 1) {
+    return num;
+  } else {
+    return fibonacci(num - 1) + fibonacci(num - 2);
+  }
+};
 
 console.log(fibonacci(0));
 console.log(fibonacci(1));
