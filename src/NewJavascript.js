@@ -23,4 +23,6 @@ console.log(fibonacci(7));
 console.log(fibonacci(8));
 console.log(fibonacci(9));
 console.log(fibonacci(10));
+console.log(fibonacci(11));
+console.log(fibonacci(12));
 
