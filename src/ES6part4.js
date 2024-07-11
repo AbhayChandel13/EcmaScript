@@ -89,44 +89,35 @@ grocerystoresemi.describeYourself();
 
  */
 
-  
-var attendence={
-    _list:[],
-    set addname(name){
-        this._list.push(name);
-
-    },
-    get list(){
-        return this._list.join(',');
-    }
+var attendence = {
+  _list: [],
+  set addname(name) {
+    this._list.push(name);
+  },
+  get list() {
+    return this._list.join(",");
+  },
 };
-attendence.addname="Abhay";
+attendence.addname = "Abhay";
 console.log(attendence.list);
 console.log(attendence._list);
-attendence.addname="Anna Singla";
-console.log("List getter :" ,attendence.list);
-console.log("Underscore list(prop.):",attendence._list);
+attendence.addname = "Anna Singla";
+console.log("List getter :", attendence.list);
+console.log("Underscore list(prop.):", attendence._list);
 
- 
+class hike {
+  constructor(distance, pace) {
+    this.distance = distance;
+    this.pace = pace;
+  }
+  get lengthInHours() {
+    return `${this.calclength()} hours`;
+  }
+  calclength() {
+    return this.distance / this.pace;
+  }
+}
+const mtIallac = new hike(10, 2);
 
-
-class hike{
-    constructor(distance,pace){
-        this.distance=distance;
-        this.pace=pace;
-    }
-    get lengthInHours(){
-        return `${this.calclength()} hours`;
-    }
-    calclength(){
-        return this.distance/this.pace;
-     }
-} 
-const mtIallac=new hike(10,2);
-
-console.log('-----------------------------');
+console.log("-----------------------------");
 console.log(mtIallac.lengthInHours);
-
-
-
- 
