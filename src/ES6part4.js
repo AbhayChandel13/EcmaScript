@@ -89,7 +89,7 @@ grocerystoresemi.describeYourself();
 
  */
 
-/*  
+  
 var attendence={
     _list:[],
     set addname(name){
@@ -107,7 +107,7 @@ attendence.addname="Anna Singla";
 console.log("List getter :" ,attendence.list);
 console.log("Underscore list(prop.):",attendence._list);
 
- */
+ 
 
 /*
 class hike{
