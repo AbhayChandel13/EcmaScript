@@ -119,5 +119,6 @@ class hike {
 }
 const mtIallac = new hike(10, 2);
 
-console.log("-----------------------------");
+console.log("-----------------------------------------");
+console.log("--------Output of second-----------------");
 console.log(mtIallac.lengthInHours);
