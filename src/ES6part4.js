@@ -109,7 +109,7 @@ console.log("Underscore list(prop.):",attendence._list);
 
  
 
-/*
+
 class hike{
     constructor(distance,pace){
         this.distance=distance;
@@ -123,8 +123,10 @@ class hike{
      }
 } 
 const mtIallac=new hike(10,2);
+
+console.log('-----------------------------');
 console.log(mtIallac.lengthInHours);
 
 
 
- */
+ 
