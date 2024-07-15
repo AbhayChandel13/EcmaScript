@@ -29,3 +29,12 @@ for (let i = 1; i <= n; i++) {
     let space = '  '; 
     console.log(space.repeat((n - i)) + str.repeat(i * 2 - 1)); 
 }
+
+console.log("====================================================");
+// Reverse star pattern pyramid:
+let m = 5; 
+for (let i = 5; i >= 1; i--) { 
+    let str = "* "; 
+    let space = '  '; 
+    console.log(space.repeat((m - i)) + str.repeat(i * 2 - 1)); 
+}
