@@ -31,7 +31,7 @@ for (let i = 1; i <= n; i++) {
 }
 
 console.log("====================================================");
-// Reverse star pattern pyramid:
+// Inverted star pattern pyramid:
 let m = 5; 
 for (let i = 5; i >= 1; i--) { 
     let str = "* "; 
