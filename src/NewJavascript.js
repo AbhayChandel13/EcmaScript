@@ -18,11 +18,14 @@ console.log(fibonacci(2));
 console.log(fibonacci(3));
 console.log(fibonacci(4));
 console.log(fibonacci(5));
-console.log(fibonacci(6));
-console.log(fibonacci(7));
-console.log(fibonacci(8));
-console.log(fibonacci(9));
-console.log(fibonacci(10));
-console.log(fibonacci(11));
-console.log(fibonacci(12));
 
+
+console.log("====================================================");
+
+// star pattern Upper pyramid:
+let n = 5; 
+for (let i = 1; i <= n; i++) { 
+    let str = "* "; 
+    let space = '  '; 
+    console.log(space.repeat((n - i)) + str.repeat(i * 2 - 1)); 
+}
