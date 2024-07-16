@@ -19,22 +19,21 @@ console.log(fibonacci(3));
 console.log(fibonacci(4));
 console.log(fibonacci(5));
 
-
 console.log("====================================================");
 
 // star pattern Upper pyramid:
-let n = 5; 
-for (let i = 1; i <= n; i++) { 
-    let str = "* "; 
-    let space = '  '; 
-    console.log(space.repeat((n - i)) + str.repeat(i * 2 - 1)); 
+let n = 5;
+for (let i = 1; i <= n; i++) {
+  let str = "* ";
+  let space = "  ";
+  console.log(space.repeat(n - i) + str.repeat(i * 2 - 1));
 }
 
 console.log("====================================================");
 // Inverted star pattern pyramid:
-let m = 5; 
-for (let i = 5; i >= 1; i--) { 
-    let str = "* "; 
-    let space = '  '; 
-    console.log(space.repeat((m - i)) + str.repeat(i * 2 - 1)); 
+let m = 5;
+for (let i = 5; i >= 1; i--) {
+  let str = "* ";
+  let space = "  ";
+  console.log(space.repeat(m - i) + str.repeat(i * 2 - 1));
 }
