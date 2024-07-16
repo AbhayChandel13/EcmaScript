@@ -37,3 +37,14 @@ for (let i = 5; i >= 1; i--) {
   let space = "  ";
   console.log(space.repeat(m - i) + str.repeat(i * 2 - 1));
 }
+
+console.log("====================================================");
+//funtction to convert array into a string :
+
+// Original Array
+let courses = ["HTML", "CSS", "JavaScript", "React"];
+
+// Converting array to String
+let str = courses.toString();
+
+console.log(str);
