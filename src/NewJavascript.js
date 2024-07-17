@@ -50,7 +50,7 @@ console.log("Coverting array to string:");
 console.log(str);
 
 // Original Array
-let learn = ["HTML", "CSS", "JavaScript", "React"];
+let learn = ["HTML", "CSS", "JavaScript", "React","Next.Js"];
 
 // Joining the array elements
 console.log("Joining the array elements by an element:");
