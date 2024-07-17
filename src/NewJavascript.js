@@ -49,10 +49,9 @@ let str = courses.toString();
 console.log("Coverting array to string:");
 console.log(str);
 
-
 // Original Array
 let learn = ["HTML", "CSS", "JavaScript", "React"];
 
 // Joining the array elements
 console.log("Joining the array elements by an element:");
-console.log(learn.join('||'));
+console.log(learn.join("||"));
