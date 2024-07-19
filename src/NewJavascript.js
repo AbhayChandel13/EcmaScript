@@ -50,16 +50,15 @@ console.log("Coverting array to string:");
 console.log(str);
 
 // Original Array
-let learn = ["HTML", "CSS", "JavaScript", "React","Next.Js"];
+let learn = ["HTML", "CSS", "JavaScript", "React", "Next.Js"];
 
 // Joining the array elements
 console.log("Joining the array elements by an element:");
 console.log(learn.join("||"));
 
-
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let size = fruits.length;
-// array length syntax: fruits.length (where fruits is array); 
+// array length syntax: fruits.length (where fruits is array);
 console.log(size);
 
 let simple = fruits.toString();
