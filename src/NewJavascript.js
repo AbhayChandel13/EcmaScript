@@ -55,3 +55,13 @@ let learn = ["HTML", "CSS", "JavaScript", "React","Next.Js"];
 // Joining the array elements
 console.log("Joining the array elements by an element:");
 console.log(learn.join("||"));
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+
+console.log(size);
+
+let simple = fruits.toString();
+
+console.log(simple);
