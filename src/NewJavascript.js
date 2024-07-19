@@ -67,12 +67,12 @@ console.log(simple);
 
 //Multiply an array by 2
 let arr = [1, 2, 3];
-let newArr = arr.map(x => x * 2); // newArr is [2, 4, 6]
-
+let newArr = arr.map((x) => x * 2); // newArr is [2, 4, 6]
 
 //Index of array from last.
 let arr1 = [1, 2, 3, 2];
 arr1.lastIndexOf(2); // returns 3
 
+//Index of array
 let arr2 = [1, 2, 3];
 arr2.indexOf(2); // returns 1
