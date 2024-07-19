@@ -64,3 +64,13 @@ console.log(size);
 let simple = fruits.toString();
 // array to string syntax: fruits.toString() (where fruits is array);
 console.log(simple);
+
+
+let arr = [1, 2, 3];
+let newArr = arr.map(x => x * 2); // newArr is [2, 4, 6]
+
+let arr1 = [1, 2, 3, 2];
+arr1.lastIndexOf(2); // returns 3
+
+let arr2 = [1, 2, 3];
+arr2.indexOf(2); // returns 1
