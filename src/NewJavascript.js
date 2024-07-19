@@ -59,9 +59,9 @@ console.log(learn.join("||"));
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let size = fruits.length;
-
+// array length syntax: fruits.length (where fruits is array); 
 console.log(size);
 
 let simple = fruits.toString();
-
+// array to string syntax: fruits.toString() (where fruits is array);
 console.log(simple);
