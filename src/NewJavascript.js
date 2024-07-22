@@ -68,26 +68,26 @@ console.log(simple);
 //Multiply an array by 2
 let arr = [1, 2, 3];
 let newArr = arr.map((x) => x * 2); // newArr is [2, 4, 6]
-console.log("newArr :",newArr);
+console.log("newArr :", newArr);
 
 //Index of array from last.
 let arr1 = [1, 2, 3, 2, 3, 7];
 arr1.lastIndexOf(2); // returns 3
-console.log("arr1 :",arr1);
+console.log("arr1 :", arr1);
 
 //Index of array
 let arr2 = [1, 2, 3, 4, 5];
 arr2.indexOf(2); // returns 1
 
-console.log("arr2 :",arr2);
+console.log("arr2 :", arr2);
 
-
+//Flatten an array:
 const flattenArray = (arr) => arr.flat(Infinity);
 
-console.log("FlatenArray e.g.=",flattenArray([1, [2, [3, [4]], 5]])); // [1, 2, 3, 4, 5]
+console.log("FlatenArray e.g.=", flattenArray([1, [2, [3, [4]], 5]])); // [1, 2, 3, 4, 5]
 
-
-
+//Select unique elements from an array:
 const uniqueElements = (arr) => [...new Set(arr)];
 
-console.log("Unique Array Elements e.g.=",uniqueElements([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
+console.log(
+  "Unique Array Elements e.g.=",  uniqueElements([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
