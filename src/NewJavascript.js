@@ -80,3 +80,14 @@ let arr2 = [1, 2, 3, 4, 5];
 arr2.indexOf(2); // returns 1
 
 console.log("arr2 :",arr2);
+
+
+const flattenArray = (arr) => arr.flat(Infinity);
+
+console.log("FlatenArray e.g.=",flattenArray([1, [2, [3, [4]], 5]])); // [1, 2, 3, 4, 5]
+
+
+
+const uniqueElements = (arr) => [...new Set(arr)];
+
+console.log("Unique Array Elements e.g.=",uniqueElements([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
