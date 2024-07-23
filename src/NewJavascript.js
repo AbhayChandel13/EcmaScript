@@ -90,4 +90,6 @@ console.log("FlatenArray e.g.=", flattenArray([1, [2, [3, [4]], 5]])); // [1, 2,
 const uniqueElements = (arr) => [...new Set(arr)];
 
 console.log(
-  "Unique Array Elements e.g.=",  uniqueElements([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
+  "Unique Array Elements e.g.=",
+  uniqueElements([1, 2, 2, 3, 4, 4, 5])
+); // [1, 2, 3, 4, 5]
