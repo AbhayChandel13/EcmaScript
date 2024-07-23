@@ -91,5 +91,5 @@ const uniqueElements = (arr) => [...new Set(arr)];
 
 console.log(
   "Unique Array Elements e.g.=",
-  uniqueElements([1, 2, 2, 3, 4, 4, 5])
+  uniqueElements([1, 2, 2, 3, 4, 4, 5, 6, 6, 6])
 ); // [1, 2, 3, 4, 5]
