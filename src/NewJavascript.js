@@ -94,7 +94,6 @@ console.log(
   uniqueElements([1, 2, 2, 3, 4, 4, 5, 6, 6, 6])
 ); // [1, 2, 3, 4, 5]
 
-
 const debounce = (fn, delay) => {
   let timeoutId;
   return (...args) => {
@@ -107,4 +106,5 @@ const debounce = (fn, delay) => {
 const logMessage = (message) => console.log(message);
 const debouncedLogMessage = debounce(logMessage, 2000);
 
-debouncedLogMessage("Hello, world!"); // This will log "Hello, world!" after 2 seconds if not called again within that time.
+debouncedLogMessage("Hello, world!");
+// This will log "Hello, world!" after 2 seconds if not called again within that time.
