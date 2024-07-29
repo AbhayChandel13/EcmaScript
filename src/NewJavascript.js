@@ -109,3 +109,8 @@ const debouncedLogMessage = debounce(logMessage, 2000);
 
 debouncedLogMessage("Hello, world!");
 // This will log "Hello, world!" after 2 seconds if not called again within that time.
+
+
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(num => num * 2);
+console.log(doubled); // [2, 4, 6, 8]
