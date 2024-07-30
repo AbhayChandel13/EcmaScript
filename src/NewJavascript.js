@@ -120,7 +120,7 @@ const numbers2 = [1, 2, 3, 4, 5, 6];
 const evenNumbers = numbers2.filter(num => num % 2 === 0);
 console.log(evenNumbers); // [2, 4, 6]
 
-
+// ============================================================
 
 function deepMerge(target, source) {
   for (const key of Object.keys(source)) {
@@ -133,9 +133,15 @@ function deepMerge(target, source) {
   return target;
 }
 
+// Explanation:
+
+// deepMerge iterates through the source object’s properties.
+// If a property is an object in both target and source, it recursively merges them.
+// Otherwise, it simply assigns the source property to target.
 // Usage Example:
 const obj1 = { a: 1, b: { c: 2, d: 3 } };
 const obj2 = { b: { d: 4, e: 5 }, f: 6 };
 const merged = deepMerge(obj1, obj2);
 console.log(merged);
+
 // Output: { a: 1, b: { c: 2, d: 4, e: 5 }, f: 6 }
