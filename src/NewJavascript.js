@@ -145,3 +145,25 @@ const merged = deepMerge(obj1, obj2);
 console.log("Deepmerged function output: ",merged);
 
 // Output: { a: 1, b: { c: 2, d: 4, e: 5 }, f: 6 }
+
+
+
+
+function curry(fn) {
+  return function curried(...args) {
+    if (args.length >= fn.length) {
+      return fn(...args);
+    }
+    return (...next) => curried(...args, ...next);
+  };
+}
+
+// Explanation:
+
+// curry transforms a function into a curried version that takes arguments one at a time.
+// It checks if enough arguments have been provided; if so, it calls the original function. Otherwise, it returns a new function that collects more arguments.
+
+// Usage Example:
+const add = (a, b, c) => a + b + c;
+const curriedAdd = curry(add);
+console.log(curriedAdd(1)(2)(3)); // Output: 6
