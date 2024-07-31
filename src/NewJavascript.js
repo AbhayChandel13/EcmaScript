@@ -110,14 +110,12 @@ const debouncedLogMessage = debounce(logMessage, 2000);
 debouncedLogMessage("Hello, world!");
 // This will log "Hello, world!" after 2 seconds if not called again within that time.
 
-
 const numbers = [1, 2, 3, 4];
-const doubled = numbers.map(num => num * 2);
+const doubled = numbers.map((num) => num * 2);
 console.log(doubled); // [2, 4, 6, 8]
 
-
 const numbers2 = [1, 2, 3, 4, 5, 6];
-const evenNumbers = numbers2.filter(num => num % 2 === 0);
+const evenNumbers = numbers2.filter((num) => num % 2 === 0);
 console.log(evenNumbers); // [2, 4, 6]
 
 // ============================================================
@@ -142,12 +140,9 @@ function deepMerge(target, source) {
 const obj1 = { a: 1, b: { c: 2, d: 3 } };
 const obj2 = { b: { d: 4, e: 5 }, f: 6 };
 const merged = deepMerge(obj1, obj2);
-console.log("Deepmerged function output: ",merged);
+console.log("Deepmerged function output: ", merged);
 
 // Output: { a: 1, b: { c: 2, d: 4, e: 5 }, f: 6 }
-
-
-
 
 function curry(fn) {
   return function curried(...args) {
