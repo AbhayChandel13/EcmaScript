@@ -170,4 +170,5 @@ const randomString = (length) => {
   return Array.from({ length }, () => chars[Math.floor(Math.random() * chars.length)]).join('');
 };
 
-console.log(randomString(10)); // Example: 'aB3dE5gH7k'
+console.log("Random String:",randomString(10)); // Example: 'aB3dE5gH7k'
+console.log("Random String:",randomString(5));
