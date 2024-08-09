@@ -163,12 +163,15 @@ const add = (a, b, c) => a + b + c;
 const curriedAdd = curry(add);
 console.log(curriedAdd(1)(2)(3)); // Output: 6
 
-
-
 const randomString = (length) => {
-  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  return Array.from({ length }, () => chars[Math.floor(Math.random() * chars.length)]).join('');
+  const chars =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  return Array.from(
+    { length },
+    () => chars[Math.floor(Math.random() * chars.length)]
+  ).join("");
 };
 
-console.log("Random String:",randomString(10)); // Example: 'aB3dE5gH7k'
-console.log("Random String:",randomString(5));
+console.log("Random String:", randomString(10)); // Example: 'aB3dE5gH7k'
+console.log("Random String:", randomString(5));
+co
