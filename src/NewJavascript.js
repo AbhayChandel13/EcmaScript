@@ -156,7 +156,8 @@ function curry(fn) {
 // Explanation:
 
 // curry transforms a function into a curried version that takes arguments one at a time.
-// It checks if enough arguments have been provided; if so, it calls the original function. Otherwise, it returns a new function that collects more arguments.
+// It checks if enough arguments have been provided; if so, it calls the original function.
+// Otherwise, it returns a new function that collects more arguments.
 
 // Usage Example:
 const add = (a, b, c) => a + b + c;
