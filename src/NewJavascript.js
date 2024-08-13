@@ -175,3 +175,4 @@ const randomString = (length) => {
 
 console.log("Random String:", randomString(10)); // Example: 'aB3dE5gH7k'
 console.log("Random String:", randomString(5)); //Example: 'shdej'
+console.log("Random String:", randomString(7)); 
