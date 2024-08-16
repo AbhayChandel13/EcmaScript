@@ -178,5 +178,12 @@ console.log("Random String:", randomString(5)); //Example: 'shdej'
 console.log("Random String:", randomString(7)); 
 console.log("Random String:", randomString(4));
 
-//This is the ecmascript practice 1010 check.
-//this is test comment for the sake of activity
+
+function capitalizeWords(str) {
+  return str.replace(/\b\w/g, char => char.toUpperCase());
+}
+
+// Example usage
+const sentence = "hello india javascript code is here";
+const capitalized = capitalizeWords(sentence);
+console.log(capitalized); // Output: "Hello World From Javascript"
