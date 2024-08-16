@@ -179,3 +179,4 @@ console.log("Random String:", randomString(7));
 console.log("Random String:", randomString(4));
 
 //This is the ecmascript practice 1010 check.
+//this is test comment for the sake of activity
