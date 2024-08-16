@@ -187,3 +187,14 @@ function capitalizeWords(str) {
 const sentence = "hello india javascript code is here";
 const capitalized = capitalizeWords(sentence);
 console.log(capitalized); // Output: "Hello World From Javascript"
+
+
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
+// Example usage
+const numbersarr = [1, 2, 3, 4, 5];
+const shuffled = shuffleArray(numbersarr);
+console.log("Shuffled Array: ",shuffled); // Output: A shuffled array, e.g., [3, 5, 1, 2, 4]
+
