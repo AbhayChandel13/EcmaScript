@@ -189,6 +189,8 @@ const capitalized = capitalizeWords(sentence);
 console.log(capitalized); // Output: "Hello World From Javascript"
 
 
+// ------------------------
+
 function shuffleArray(array) {
   return array.sort(() => Math.random() - 0.5);
 }
