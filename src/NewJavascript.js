@@ -177,3 +177,5 @@ console.log("Random String:", randomString(10)); // Example: 'aB3dE5gH7k'
 console.log("Random String:", randomString(5)); //Example: 'shdej'
 console.log("Random String:", randomString(7)); 
 console.log("Random String:", randomString(4));
+
+//This is the ecmascript practice 1010 check.
