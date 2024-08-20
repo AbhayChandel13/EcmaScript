@@ -175,19 +175,17 @@ const randomString = (length) => {
 
 console.log("Random String:", randomString(10)); // Example: 'aB3dE5gH7k'
 console.log("Random String:", randomString(5)); //Example: 'shdej'
-console.log("Random String:", randomString(7)); 
+console.log("Random String:", randomString(7));
 console.log("Random String:", randomString(4));
 
-
 function capitalizeWords(str) {
-  return str.replace(/\b\w/g, char => char.toUpperCase());
+  return str.replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
 // Example usage
 const sentence = "hello india javascript code is here";
 const capitalized = capitalizeWords(sentence);
 console.log(capitalized); // Output: "Hello World From Javascript"
-
 
 // ------------------------
 
@@ -198,5 +196,4 @@ function shuffleArray(array) {
 // Example usage
 const numbersarr = [1, 2, 3, 4, 5];
 const shuffled = shuffleArray(numbersarr);
-console.log("Shuffled Array: ",shuffled); // Output: A shuffled array, e.g., [3, 5, 1, 2, 4]
-
+console.log("Shuffled Array: ", shuffled); // Output: A shuffled array, e.g., [3, 5, 1, 2, 4]
