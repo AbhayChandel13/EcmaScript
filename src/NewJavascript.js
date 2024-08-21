@@ -178,6 +178,8 @@ console.log("Random String:", randomString(5)); //Example: 'shdej'
 console.log("Random String:", randomString(7));
 console.log("Random String:", randomString(4));
 
+// ------------------------
+
 function capitalizeWords(str) {
   return str.replace(/\b\w/g, (char) => char.toUpperCase());
 }
