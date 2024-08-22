@@ -203,6 +203,8 @@ console.log("Shuffled Array: ", shuffled); // Output: A shuffled array, e.g., [3
 
 //This trick is particularly useful when dealing with API responses or functions that accept configuration objects, ensuring that your code can handle missing or undefined properties gracefully.
 
+//These tricks are widely used in modern JavaScript development and can significantly improve code readability and efficiency.
+
 // Object destructuring with default values
 const user = {
   Username: "Alice",
@@ -214,3 +216,14 @@ const { Username, age, city = "Unknown" } = user;
 console.log(Username); // Output: "Alice"
 console.log(age);  // Output: 25
 console.log(city); // Output: "Unknown"
+
+
+
+// Example of short-circuit evaluation
+const isLoggedIn = false;
+const userRole = isLoggedIn && "admin";
+console.log(userRole); // Output: "admin"
+
+// Fallback with OR operator
+const port = process.env.PORT || 3000;
+console.log(port); // Output: 5000 (if process.env.PORT is undefined)
