@@ -199,3 +199,18 @@ function shuffleArray(array) {
 const numbersarr = [1, 2, 3, 4, 5];
 const shuffled = shuffleArray(numbersarr);
 console.log("Shuffled Array: ", shuffled); // Output: A shuffled array, e.g., [3, 5, 1, 2, 4]
+
+
+//This trick is particularly useful when dealing with API responses or functions that accept configuration objects, ensuring that your code can handle missing or undefined properties gracefully.
+
+// Object destructuring with default values
+const user = {
+  Username: "Alice",
+  age: 25,
+  // city is missing
+};
+
+const { Username, age, city = "Unknown" } = user;
+console.log(Username); // Output: "Alice"
+console.log(age);  // Output: 25
+console.log(city); // Output: "Unknown"
