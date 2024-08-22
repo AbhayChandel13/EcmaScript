@@ -203,7 +203,6 @@ console.log("Shuffled Array: ", shuffled); // Output: A shuffled array, e.g., [3
 
 //This trick is particularly useful when dealing with API responses or functions that accept configuration objects, ensuring that your code can handle missing or undefined properties gracefully.
 
-//These tricks are widely used in modern JavaScript development and can significantly improve code readability and efficiency.
 
 // Object destructuring with default values
 const user = {
@@ -218,6 +217,8 @@ console.log(age);  // Output: 25
 console.log(city); // Output: "Unknown"
 
 
+// -------------------------------
+//These tricks are widely used in modern JavaScript development and can significantly improve code readability and efficiency.
 
 // Example of short-circuit evaluation
 const isLoggedIn = false;
