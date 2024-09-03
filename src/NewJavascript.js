@@ -225,4 +225,4 @@ console.log(userRole); // Output: "admin"
 // Fallback with OR operator
 const port = process.env.PORT || 3000;
 console.log(port); // Output: 5000 (if process.env.PORT is undefined)
-console.log(port);
+console.log(port); //output:3000 
