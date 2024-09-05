@@ -229,4 +229,4 @@ console.log(port); //output:3000
 
 const port2 = process.env.PORT || 5000;
 console.log(port2); // Output: 5000 (if process.env.PORT is undefined)
-console.log(port2); //output:3000 
+console.log(port2);
