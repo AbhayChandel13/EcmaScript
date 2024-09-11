@@ -142,6 +142,3 @@ console.log("Flatted Array", newArr);
 //   await myPromise
 //    //  document.getElementById("demo").innerHTML = await myPromise;
 // }
-
-// myDisplay();
-
