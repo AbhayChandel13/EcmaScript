@@ -144,6 +144,7 @@ console.log("Flatted Array", newArr);
 // }
 
 
+// 11/09/2024 (jordan = 0hour)(Rick = 8hours(sacred-lights=3,agaveluz=4,westsidewellness=1hours)
 // Today's tasks: 
 // A)Worked on Agaveluz
 //  a1)member's data.
