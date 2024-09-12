@@ -142,3 +142,14 @@ console.log("Flatted Array", newArr);
 //   await myPromise
 //    //  document.getElementById("demo").innerHTML = await myPromise;
 // }
+
+
+// Today's tasks: 
+// A)Worked on Agaveluz
+//  a1)member's data.
+//  a2)press post added.
+//  a3)bluehost support for sitelock. 
+// B)Worked on Westsidewellness Site pages error resolved.
+// C)Worked on Sacred lights team individual pages.
+//  c1)areas of study page section deelopment.
+//  c2)Menu name and navigation updated.
