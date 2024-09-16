@@ -144,7 +144,6 @@ console.log("Flatted Array", newArr);
 // }
 
 
-// 11/09/2024 (jordan = 0hour)(Rick = 8hours(sacred-lights=3,agaveluz=4,westsidewellness=1hours)
 // Today's tasks: 
 // A)Worked on somtable r&d.
 // B)Worked on Sacred lights about page,homepage and other pages. 
