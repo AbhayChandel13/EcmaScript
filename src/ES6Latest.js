@@ -146,11 +146,7 @@ console.log("Flatted Array", newArr);
 
 // 11/09/2024 (jordan = 0hour)(Rick = 8hours(sacred-lights=3,agaveluz=4,westsidewellness=1hours)
 // Today's tasks: 
-// A)Worked on Agaveluz
-//  a1)member's data.
-//  a2)press post added.
-//  a3)bluehost support for sitelock. 
-// B)Worked on Westsidewellness Site pages error resolved.
-// C)Worked on Sacred lights team individual pages.
-//  c1)areas of study page section deelopment.
-//  c2)Menu name and navigation updated.
+// A)Worked on somtable r&d.
+// B)Worked on Sacred lights about page,homepage and other pages. 
+//  b1)agaveluz team member added with image edited.
+ 
