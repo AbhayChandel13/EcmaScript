@@ -133,13 +133,6 @@ const myArr = [
 const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
-//javascript async  function
-
-// async function myDisplay() {
-//   let myPromise = new Promise(function(resolve) {
-//     setTimeout(function() {resolve("I love You !!");}, 3000);
-
-
 
 // Today's tasks: 
 // A)Worked on somtable r&d.
