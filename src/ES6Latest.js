@@ -134,8 +134,8 @@ const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
 
-// Today's tasks: 
-// A)Worked on somtable r&d.
-// B)Worked on Sacred lights about page,homepage and other pages. 
-//  b1)agaveluz team member added with image edited.
+// A)Worked on Luccielectric:
+//  a1)banner button updates.
+// B)Worked on sacred lights area of study page.
+// C)Sommtable sesami app and bubble.io r&d.
  
