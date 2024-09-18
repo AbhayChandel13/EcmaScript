@@ -134,6 +134,7 @@ const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
 
+//Date-17Sept.2024
 // A)Worked on Luccielectric:
 //  a1)banner button updates.
 // B)Worked on sacred lights area of study page.
