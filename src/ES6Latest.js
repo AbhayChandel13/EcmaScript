@@ -135,8 +135,10 @@ console.log("Flatted Array", newArr);
 
 
 //Date-17Sept.2024
-// A)Worked on Luccielectric:
-//  a1)banner button updates.
-// B)Worked on sacred lights area of study page.
-// C)Sommtable sesami app and bubble.io r&d.
+// A)Worked on Sommtable 
+//  a1)the booking for the tables from shopify store.
+//  a2)Adding the demo product on table to test booking steps.
+//  a3)created the demo experience product on somm.app
+// B)Worked on Monterosbe:
+//  b1)on shipping app for the free shipping condition on Aw24-25 collection. 
  
