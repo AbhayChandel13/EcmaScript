@@ -134,7 +134,7 @@ const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
 
-//Date-17Sept.2024
+//Date-19Sept.2024
 // A)Worked on Sommtable 
 //  a1)the booking for the tables from shopify store.
 //  a2)Adding the demo product on table to test booking steps.
