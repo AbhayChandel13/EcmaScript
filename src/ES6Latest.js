@@ -135,8 +135,5 @@ console.log("Flatted Array", newArr);
 
 
 //Date-20Sept.2024
-// Today's tasks: 
-// A)Worked on Sommtable 
-//  a1)r&d on somm.app and work flow.
-// B)westsidewellness user credentials updated.
-// C)canonicalize issue.
+// A)Worked on agaveluz.com
+//  a1)iframe for the shop products.
