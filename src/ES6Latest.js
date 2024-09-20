@@ -134,7 +134,7 @@ const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
 
-//Date-19Sept.2024
+//Date-20Sept.2024
 // Today's tasks: 
 // A)Worked on Sommtable 
 //  a1)r&d on somm.app and work flow.
