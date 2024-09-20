@@ -135,5 +135,6 @@ console.log("Flatted Array", newArr);
 
 
 //Date-20Sept.2024
+
 // A)Worked on agaveluz.com
 //  a1)iframe for the shop products.
