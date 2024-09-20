@@ -135,10 +135,8 @@ console.log("Flatted Array", newArr);
 
 
 //Date-19Sept.2024
+// Today's tasks: 
 // A)Worked on Sommtable 
-//  a1)the booking for the tables from shopify store.
-//  a2)Adding the demo product on table to test booking steps.
-//  a3)created the demo experience product on somm.app
-// B)Worked on Monterosbe:
-//  b1)on shipping app for the free shipping condition on Aw24-25 collection. 
- 
+//  a1)r&d on somm.app and work flow.
+// B)westsidewellness user credentials updated.
+// C)canonicalize issue.
