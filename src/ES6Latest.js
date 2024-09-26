@@ -136,8 +136,6 @@ console.log("Flatted Array", newArr);
 
 //Date-26Sept.2024
 
-// A)Worked on agaveluz.com
-//  a1)iframe for the shop products.
 // A)Worked on Agaveluz:
 //  a1)Product embedded button for all product pages.
 //  a2)Add to cart button and all single pages design.
