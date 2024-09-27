@@ -134,7 +134,7 @@ const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
 
-//Date-26Sept.2024
+//Date-27Sept.2024
 
 // Today's tasks: 
 // A)Worked on Agaveluz:
