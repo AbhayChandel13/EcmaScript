@@ -136,7 +136,8 @@ console.log("Flatted Array", newArr);
 
 //Date-26Sept.2024
 
+// Today's tasks: 
 // A)Worked on Agaveluz:
-//  a1)Product embedded button for all product pages.
-//  a2)Add to cart button and all single pages design.
-//  a3)top nav bar and other pages updates.
+//  a1)Single Product pages buttons and
+//     text for infomation about products.
+//  a2)Buy now page top text and products section.
