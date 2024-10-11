@@ -139,5 +139,4 @@ console.log("Flatted Array", newArr);
 // Today's tasks: 
 // A)Worked on Agaveluz:
 //  a1)Single Product pages buttons and
-//     text for infomation about products.
-//  a2)Buy now page top text and products section.
+
