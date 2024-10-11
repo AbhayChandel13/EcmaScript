@@ -136,7 +136,5 @@ console.log("Flatted Array", newArr);
 
 //Date-27Sept.2024
 
-// Today's tasks: 
-// A)Worked on Agaveluz:
-//  a1)Single Product pages buttons and
+
 
