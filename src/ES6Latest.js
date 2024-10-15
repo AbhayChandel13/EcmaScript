@@ -137,4 +137,4 @@ console.log("Flatted Array", newArr);
 //Date-27Sept.2024
 //task 1
 //tasks 2 
-
+//task day 2
