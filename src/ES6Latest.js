@@ -138,3 +138,4 @@ console.log("Flatted Array", newArr);
 //task 1
 //tasks 2 
 //task day 2
+//tasks day 2.1
