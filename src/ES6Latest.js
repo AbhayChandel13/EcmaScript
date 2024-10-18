@@ -134,8 +134,6 @@ const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
 
-//Date-27Sept.2024
-//task 1
-//tasks 2 
+//Date-19Oct.2024
 //task day 2
 //tasks day 3
