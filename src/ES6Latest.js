@@ -133,5 +133,3 @@ const myArr = [
 const newArr = myArr.flat();
 console.log("Flatted Array", newArr);
 
-
-//Date-26Oct.2024
